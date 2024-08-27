@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha - Projeto Pessoal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Jogo da Velha - Projeto Pessoal</h1>
+        <hr>
+    </header>
+    <main>
+        <label for="jogador01">Jogador n.01:</label>
+        <input type="text" id="input_jogador01">
+        <label for="jogador02">Jogador n.02:</label>
+        <input type="text" id="input_jogador02">
+
+        <button id="btn_jogar">Jogar</button>
+
+        <div>
+            <!-- Fileira 1 -->
+            <button class="btn_jogo fileira1" id="btn_jogo1"> </button>
+            <button class="btn_jogo fileira1" id="btn_jogo2"> </button>
+            <button class="btn_jogo fileira1" id="btn_jogo3"> </button>
+            <br>
+            <!-- Fileira 2 -->
+            <button class="btn_jogo fileira2" id="btn_jogo4"> </button>
+            <button class="btn_jogo fileira2" id="btn_jogo5"> </button>
+            <button class="btn_jogo fileira2" id="btn_jogo6"> </button>
+            <br>
+            <!-- Fileira 3 -->
+            <button class="btn_jogo fileira3" id="btn_jogo7"> </button>
+            <button class="btn_jogo fileira3" id="btn_jogo8"> </button>
+            <button class="btn_jogo fileira3" id="btn_jogo9"> </button>
+        </div>
+
+        <section class="class_vencedor">
+            <input type="text" id="input_vencedor">
+        </section>
+    </main>
+</body>
+
+</html>
